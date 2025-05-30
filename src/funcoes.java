@@ -38,7 +38,7 @@ public class funcoes {
 
         System.out.println("--------SPLIT----------");
         String s = "potato-apple-lemon-orange";
-        String[] vect = s.split("-"); // declarando um vetor e utilizando 'espaço' como delimitador
+        String[] vect = s.split("-"); // declarando um vetor e utilizando '-' como delimitador
         String word1 = vect[0];
         String word2 = vect[1];
         String word3 = vect[2];
