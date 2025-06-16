@@ -37,5 +37,24 @@ public class switchCase {
 
         }
         System.out.println("Dia da semana: " + dia);
+
+        char sexo = 'F';
+        switch (sexo){
+            case 'M':
+                System.out.println("Homem");
+                break;
+            case 'F':
+                System.out.println("Mulher");
+                break;
+            default:
+                System.out.println("Não identificado");
+        }
+        int day = tc.nextInt();
+        switch (day){
+            case 1,7 -> System.out.println("Fim de Semana");
+            case 2,3,4,5,6 -> System.out.println("Dia útil");
+
+            default -> System.out.println("Dia não identificado");
+        }
     }
 }
